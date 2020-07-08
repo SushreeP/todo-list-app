@@ -1,24 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import TodoItem from "./components/TodoItem";
 
 function App() {
   return (
     <div className="App">
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <TodoItem />
       <hr />
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <TodoItem />
       <hr />
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <TodoItem />
       <hr />
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <TodoItem />
       <hr />
-      <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <TodoItem />
     </div>
   );
 }
