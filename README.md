@@ -16,3 +16,4 @@ For practice...
    setState with an updatedState
    where the todo in prevState, whose id matches
    replaced with a todo with toggled status
+10. Add Styling as you please
