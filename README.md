@@ -11,4 +11,8 @@ For practice...
 5. Instead of a number of <TodoItem>, map todosData to a list of <TodoItem> and output the list: {todosList}
 6. Start working on checked property : test onChange
 7. Function to handle change is written in App.js . Because TodoItem.js is just a frame to contain data, data is being stored in state in App.js so that is where it is manipulated.
-8. Create and bind a function through props to toggle the checkbox. Write the function body.
+8. Create and bind a function through props to toggle the checkbox.
+9. Write the function :
+   setState with an updatedState
+   where the todo in prevState, whose id matches
+   replaced with a todo with toggled status

@@ -13,7 +13,15 @@ class App extends React.Component {
   }
 
   toggleChecked(id) {
-    alert(id);
+    this.setState((prevState) => {
+      const updatedTodos = prevState.todos.map((todo) => {
+        if (todo.id === id) {
+          todo.status = !todo.status;
+        }
+        return todo;
+      });
+      return updatedTodos;
+    });
   }
 
   render() {
