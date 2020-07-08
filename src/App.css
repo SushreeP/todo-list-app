@@ -1,3 +1,30 @@
+body {
+  background-color: lightgray;
+}
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  margin: auto;
+  border: 1px solid grey;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.todo-item {
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  padding: 15px 20px 0;
+  font-size: 15px;
+  color: grey;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
 }

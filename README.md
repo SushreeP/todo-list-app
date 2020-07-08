@@ -17,3 +17,4 @@ For practice...
    where the todo in prevState, whose id matches
    replaced with a todo with toggled status
 10. Add Styling as you please
+11. Errors to remember : toggle func executing twice; Solution : get rid of <React.StrictMode/>
